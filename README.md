@@ -44,3 +44,12 @@ Effective in high-dimensional spaces and suitable for datasets where classes are
 
  k-NN classifies instances based on the majority class of the k-nearest neighbors in the feature space.
 Simple and intuitive, works well with small datasets and can capture complex relationships.
+
+## 3.Model Comparison
+
+The model comparison results show the accuracy of each classifier on the test set. The algorithm with the highest accuracy is considered the best performing, while the one with the lowest accuracy is considered the worst performing.
+
+Based on the sorted results from the code, the best performing algorithm is `Random Forest` with the highest accuracy, and the worst performing algorithm is `Decision Tree` with the lowest accuracy. This indicates that the ensemble method of Random Forest, which combines multiple decision trees, provides better generalization and accuracy compared to a single Decision Tree classifier.
+
+The detailed accuracy for each classifier is printed, and you can see which ones perform better or worse in comparison.
+
